@@ -1,0 +1,14 @@
+stages:
+  - deploy_api
+
+image: node:12
+
+deploy:
+  stage: deploy_api
+  before_script:
+    - npm install -g serverless
+  script:
+    - serverless deploy --stage ${CI_COMMIT_REF_NAME:-master} -v 
+  only:
+    - master
+    - develop
