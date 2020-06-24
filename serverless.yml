@@ -11,3 +11,13 @@ functions:
       - http:
           path: hello
           method: get
+  hello_detail:
+    handler: handler_detail.hello
+    events:
+      - http:
+          path: hello/{id}
+          method: get
+        request:
+          parameters:
+            paths:
+              id: true
