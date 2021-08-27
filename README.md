@@ -2,7 +2,7 @@
 
 Serverless framework tutorial focused on the development process and getting started with the framework
 
-Mirrors: (gitlab - with CI)[https://gitlab.com/horosin/serverless-js-tutorial], (github)[https://github.com/horosin/serverless-js-tutorial]
+Mirrors: [gitlab - with CI](https://gitlab.com/horosin/serverless-js-tutorial), [github](https://github.com/horosin/serverless-js-tutorial)
 
 ## Resources
 
